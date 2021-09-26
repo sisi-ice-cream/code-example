@@ -64,7 +64,7 @@ p {
     color: var(--button-color);
 }
 .button:hover {
-    color: var(--button-hover-color)
+    color: var(--button-hover-color);
     background-color: var(--button-color);
 }
 
@@ -74,15 +74,15 @@ p {
     line-height: 1.4em;
 }
 
-media (min-width: 800px) {
-    .about-container {
+media {min-width: 800px} 
+ .about-container {
         display: flex;
     }
 
     .about-text {
         margin-left: var(--spacing);
     }
-}
+
 
 
 :root {
